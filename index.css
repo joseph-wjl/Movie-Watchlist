@@ -1,0 +1,62 @@
+/* body */
+body {
+    font-family: "Inter", serif;
+    color: #FFFFFF;
+    background-color: #121212;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Banner */
+#banner {
+    background-image: url("images/banner-img.png");
+    background-size: cover;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div#banner>h1 {
+    margin-left: 20px;
+}
+
+div#banner>p {
+    margin-right: 20px;
+}
+
+/* Search bar */
+#search-bar-container {
+    text-align: center;
+    margin-top: 0;
+}
+
+#search-bar {
+    background-color: #2E2E2F;
+    color: #A5A5A5;
+    width: 80%;
+    height: 40px;
+    border: none;
+    /* width: 462px;
+    height: 38px; */
+    border-radius: 6px;
+    margin-top: -50px;
+    padding-left: 1em;
+    transition: background-color 0.5s;
+}
+
+#search-bar:hover {
+    background-color: #9f9f9f;
+    transition: 0.5s;
+}
+
+/* Movie list */
+#movie-list {
+    color: #2E2E2F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
