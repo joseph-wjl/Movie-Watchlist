@@ -99,3 +99,9 @@ div#movie-list>p {
     font-weight: bold;
     margin-top: 8px;
 }
+
+/* Movie details */
+.details-wrapper {
+    display: flex;
+    flex-direction: column;
+}
